@@ -13,3 +13,6 @@ set_prop(init, vendor_default_prop)
 set_prop(init, vendor_display_notch_prop)
 
 allow init zygote:unix_stream_socket getopt;
+
+allow init per_boot_file:file ioctl;
+allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
