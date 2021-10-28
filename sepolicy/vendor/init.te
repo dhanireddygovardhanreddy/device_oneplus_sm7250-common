@@ -1,0 +1,19 @@
+allow init hal_power_service:service_manager add;
+allow init kmsg_device:chr_file write;
+allow init configfs:dir write;
+allow init op2_file:dir mounton;
+
+get_prop(init, default_prop)
+get_prop(init, persist_debug_prop)
+
+allow init block_device:lnk_file setattr;
+
+set_prop(init, default_prop)
+set_prop(init, vendor_default_prop)
+set_prop(init, vendor_display_notch_prop)
+
+allow init zygote:unix_stream_socket getopt;
+
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
