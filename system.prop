@@ -80,3 +80,6 @@ ro.launcher.blur.appLaunch=0
 
 # Maintainer
 ro.octavi.maintainer=Squadgtx
+
+# OTA
+ro.octavi.display.pid=1655580
