@@ -78,8 +78,8 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # Disable blur on app launch
 ro.launcher.blur.appLaunch=0
 
-# Maintainer
+# Octavi Prop
 ro.octavi.maintainer=Squadgtx
-
-# OTA
 ro.octavi.display.pid=1706103
+ro.octavi.hw.cam=48MP.8MP.5MP.2MP:32MP.8MP
+ro.octavi.hw.cpu=Snapdragon 765G
