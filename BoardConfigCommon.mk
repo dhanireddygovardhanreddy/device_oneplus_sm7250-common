@@ -200,3 +200,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/oneplus/sm7250-common/BoardConfigVendor.mk
+
+# Assert
+ TARGET_OTA_ASSERT_DEVICE := avicii|OnePlusNord|Nord
