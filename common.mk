@@ -28,7 +28,7 @@ $(call inherit-product, vendor/oneplus/sm7250-common/sm7250-common-vendor.mk)
 $(call inherit-product, $(LOCAL_PATH)/interfaces.mk)
 
 # Inherit Oneplus Camera
-$(call inherit-product, vendor/oneplus/avicii-camera/config.mk)
+#$(call inherit-product, vendor/oneplus/avicii-camera/config.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
