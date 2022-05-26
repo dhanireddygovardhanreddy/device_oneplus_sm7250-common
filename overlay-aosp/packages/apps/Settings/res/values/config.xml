@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Defines the location of the fingerprint sensor on the device
@@ -24,7 +25,14 @@
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
 
-    <!-- Whether to show min/max refresh rate in display settings -->
+<!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">true</bool>
     <bool name="config_supports_dynamic_refresh_rate_controls">false</bool>
+
+   <!-- Battery Health -->
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
+    <bool name="config_supportBatteryHealth">true</bool>
+
 </resources>
