@@ -47,6 +47,9 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 # Bluetooth (shared dependencies)
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
+# Alexa Hands Free Stuff
+-system/priv-app/QualcommVoiceActivation/QualcommVoiceActivation.apk;PRESIGNED|1946fe3b1e3318c7c480c5d66f22f4197a02bc1f
+
 # Bluetooth (aptX) - from crosshatch - RQ1A.201205.003
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
@@ -502,6 +505,7 @@ vendor/lib/libgcs.so|dd4261c26c0a420b8ba3c5fb9fe808dfd6a16134
 vendor/lib/liblistensoundmodel2.so|a761f31548003019958294836405528025446bac
 vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libsmwrapper.so|af37e8bd00fd4130094349c1d94e83c5b0c20550
+vendor/lib64/liblistensoundmodel2.so
 
 # Media (Codec2) - from LA.UM.9.12.r1-14000.04-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|cd2c5d4f2050f7d72bb1116899da5abb49eb1864
