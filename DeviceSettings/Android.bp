@@ -35,7 +35,7 @@ android_app {
     static_libs: [
         "androidx.core_core",
         "androidx.preference_preference",
-        "com.pixys.settings.resources",
+        "org.crystalos.settings.resources",
     ],
 
     resource_dirs: ["res"],
